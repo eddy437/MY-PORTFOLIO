@@ -63,8 +63,9 @@
     font-size: 1.9vw;
     line-height: 2.3vw;
   }
-  .split-line {
-    word-spacing: 0.3vw;
+  .split-line span {
+    display: inline-block;
+    margin-right: 0.3vw;
   }
 }
 
@@ -73,7 +74,7 @@
     font-size: 2.5rem;
     line-height: 2.7rem;
   }
-  .split-line {
-    word-spacing: 0.3rem;
+  .split-line span {
+    margin-right: 0.3rem;
   }
 }
